@@ -1,8 +1,8 @@
 #!/usr/bin/env hy
 
-(import and_gate [AND])
-(import nand_gate [NAND])
-(import or_gate [OR])
+(import and-gate [AND])
+(import nand-gate [NAND])
+(import or-gate [OR])
 
 (defn XOR [x1 x2]
   (let [s1 (NAND x1 x2)
