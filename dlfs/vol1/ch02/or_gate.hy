@@ -1,5 +1,7 @@
 #!/usr/bin/env hy
 
+; From section 2.3.3
+
 (import numpy :as np)
 
 (defn OR [x1 x2]

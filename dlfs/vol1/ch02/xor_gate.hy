@@ -1,5 +1,7 @@
 #!/usr/bin/env hy
 
+; From section 2.5.2
+
 (import and-gate [AND])
 (import nand-gate [NAND])
 (import or-gate [OR])
