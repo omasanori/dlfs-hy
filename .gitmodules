@@ -1,0 +1,12 @@
+[submodule "vol1-py"]
+	path = vol1-py
+	url = https://github.com/oreilly-japan/deep-learning-from-scratch.git
+[submodule "vol2-py"]
+	path = vol2-py
+	url = https://github.com/oreilly-japan/deep-learning-from-scratch-2.git
+[submodule "vol3-py"]
+	path = vol3-py
+	url = https://github.com/oreilly-japan/deep-learning-from-scratch-3.git
+[submodule "vol4-py"]
+	path = vol4-py
+	url = https://github.com/oreilly-japan/deep-learning-from-scratch-4.git
