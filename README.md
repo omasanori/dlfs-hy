@@ -10,8 +10,9 @@ algorithms. The original code is written in Python, but I decided to use the
 ## How to run
 
 To prepare the development environment, install the [Nix](https://nixos.org)
-package manager and run `nix-shell`. On Ubuntu, the `nix-bin` package is
-available out-of-box.
+package manager and run `nix-shell`.
+
+On Ubuntu, try the commands below:
 
 ```shell
 sudo apt install nix-shell
