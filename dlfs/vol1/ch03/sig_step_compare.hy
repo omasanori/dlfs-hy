@@ -1,6 +1,6 @@
 #!/usr/bin/env hy
 
-; From section 3.2.3
+; From section 3.2.5
 
 (import numpy :as np)
 (import matplotlib.pyplot :as plt)
