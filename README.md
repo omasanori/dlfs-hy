@@ -15,7 +15,7 @@ package manager and run `nix-shell`.
 On Ubuntu, try the commands below:
 
 ```shell
-sudo apt install nix-shell
+sudo apt install nix-bin
 git clone https://github.com/omasanori/dlfs-hy.git
 cd dlfs-hy
 nix-shell
