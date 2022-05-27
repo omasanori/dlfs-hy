@@ -8,8 +8,9 @@
 (defn step-function [x]
   (np.array (> x 0) :dtype int))
 
-(let [x (np.arange -5.0 5.0 0.1)
-      y (step-function x)]
-  (plt.plot x y)
-  (plt.ylim -0.1 1.1)
-  (plt.savefig "step_function.png"))
+(when (= __name__ "__main__")
+  (let [x (np.arange -5.0 5.0 0.1)
+        y (step-function x)]
+    (plt.plot x y)
+    (plt.ylim -0.1 1.1)
+    (plt.savefig "step_function.png")))
