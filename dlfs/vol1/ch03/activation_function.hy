@@ -22,6 +22,14 @@
 (defn identity [x]
   x)
 
+; From section 3.5.2
+
+(defn softmax [a]
+  (let [c (np.max a)
+        exp_a (np.exp (- a c))
+        sum_exp_a (np.sum (exp_a))]
+    (/ exp_a sum_exp_a)))
+
 (when (= __name__ "__main__")
   (import matplotlib.pyplot :as plt)
   (let [x (np.arange -3.0 3.0 0.1)
