@@ -14,4 +14,4 @@
   (plt.ylabel "y")
   (plt.title "sin & cos")
   (plt.legend)
-  (plt.savefig "sin_cos_graph.png"))
+  (plt.show))

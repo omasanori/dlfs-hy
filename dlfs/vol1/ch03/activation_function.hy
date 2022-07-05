@@ -44,4 +44,4 @@
     (plt.xlim -3 3)
     (plt.ylim -3 3)
     (plt.legend)
-    (plt.savefig "activation_function.png")))
+    (plt.show)))

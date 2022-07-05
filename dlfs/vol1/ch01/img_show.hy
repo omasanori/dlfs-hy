@@ -11,4 +11,4 @@
 
 (let [img (imread (+ dataset "/lena.png"))]
   (plt.imshow img)
-  (plt.savefig "img_show.png"))
+  (plt.show))
